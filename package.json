@@ -1,0 +1,43 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.17.3"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tts"
+  ],
+  "author": "nhh",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.28.2",
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.4.1",
+    "express-session": "^1.17.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mammoth": "^1.4.18",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.2",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.19",
+    "random-id": "^1.0.4",
+    "redis": "^3.1.2",
+    "socket.io": "^4.5.1",
+    "wmf": "^1.0.2",
+    "wmf2png": "^1.0.0"
+  },
+  "proxy": "http://localhost:3000"
+}
