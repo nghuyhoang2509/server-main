@@ -1,7 +1,7 @@
 const User = require('../../model/User');
 const jwtUtil = require('../util/jwt');
 const argon2 = require('argon2');
-const redisDB = require('../../config/redisDb')
+const redisDB = require('../../config/redisDB')
 const transporter = require("../../config/nodemailer");
 var randomId = require('random-id');
 
