@@ -34,7 +34,7 @@
     "nodemailer": "^6.6.5",
     "nodemon": "^2.0.19",
     "random-id": "^1.0.4",
-    "redis": "^3.1.2",
+    "redis": "^4.2.0",
     "socket.io": "^4.5.1",
     "wmf": "^1.0.2",
     "wmf2png": "^1.0.0"
