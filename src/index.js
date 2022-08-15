@@ -71,5 +71,5 @@ const socketIo = require("socket.io")(server, { cors: { origin: "*", } });
 const socketHandle = require("./app/socket/index")
 socketHandle(socketIo)
 
-server.listen(process.env.PORT || 6000, () => console.log(`thành công`))
+server.listen(process.env.PORT, () => console.log(server.address().address))
 
