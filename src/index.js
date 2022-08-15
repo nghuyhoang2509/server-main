@@ -35,6 +35,7 @@ app.use(cors({
         "https://192.168.1.9:3000",
         "https://nghuyhoang.netlify.app",
         "https://192.168.1.9:3001",
+        "https://railway.app"
         `${process.env.host}`
     ],
     credentials: true,
