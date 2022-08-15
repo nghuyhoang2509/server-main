@@ -71,5 +71,5 @@ const socketIo = require("socket.io")(server, { cors: { origin: "*", } });
 const socketHandle = require("./app/socket/index")
 socketHandle(socketIo)
 
-server.listen(process.env.PORT, () => console.log(server.address().address))
+server.listen(process.env.PORT, () => console.log(server.address().port))
 
